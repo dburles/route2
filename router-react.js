@@ -65,8 +65,6 @@ export function withRouter(WrappedComponent) {
       return React.createElement(WrappedComponent, {
         ...this.props,
         router: {
-          Link,
-          location: window.location,
           params: getRouteParams(),
         },
       });
