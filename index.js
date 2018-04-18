@@ -1,6 +1,6 @@
 const subscriptions = [];
 let resolve = () => {};
-let params;
+let params = {};
 
 export function getRouteParams() {
   return params;
